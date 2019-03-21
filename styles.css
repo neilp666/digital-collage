@@ -27,6 +27,12 @@ img {
     position: absolute;
     top: 500px;
     left: 400px;
+    height: 650px;
+    width: 650px;
     transform: translate(-50%, -50%) scale(0.5) rotate(10deg);
     animation: fadein 0.5s;
+}
+
+img:hover {
+    z-index: 1;
 }
